@@ -18,15 +18,29 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_14_clicked();
-
-    void on_pushButton_15_clicked();
-
-    void on_pushButton_12_clicked();
-
+    void on_pushButton0_clicked();
     void on_pushButton1_clicked();
+    void on_pushButton2_clicked();
+    void on_pushButton3_clicked();
+    void on_pushButton4_clicked();
+    void on_pushButton5_clicked();
+    void on_pushButton6_clicked();
+    void on_pushButton7_clicked();
+    void on_pushButton8_clicked();
+    void on_pushButton9_clicked();
+
+    void on_pushButtonClear_clicked();
+    void on_PushButtonEqual_clicked();
+    void on_pushButtonAddition_clicked();
+    void on_pushButtonSubtraction_clicked();
+    void on_pushButtonMultiplication_clicked();
+    void on_pushButtonDivision_clicked();
+    void on_pushedButtonBackspace_clicked();
+
+    int CalculateResult(int firstNum, int secondNum);
 
 private:
     Ui::MainWindow *ui;
 };
+
 #endif // MAINWINDOW_H

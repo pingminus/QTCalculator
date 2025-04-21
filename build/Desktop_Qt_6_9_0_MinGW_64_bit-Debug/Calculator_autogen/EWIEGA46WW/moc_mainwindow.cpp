@@ -39,22 +39,68 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "MainWindow",
-        "on_pushButton_14_clicked",
+        "on_pushButton0_clicked",
         "",
-        "on_pushButton_15_clicked",
-        "on_pushButton_12_clicked",
-        "on_pushButton1_clicked"
+        "on_pushButton1_clicked",
+        "on_pushButton2_clicked",
+        "on_pushButton3_clicked",
+        "on_pushButton4_clicked",
+        "on_pushButton5_clicked",
+        "on_pushButton6_clicked",
+        "on_pushButton7_clicked",
+        "on_pushButton8_clicked",
+        "on_pushButton9_clicked",
+        "on_pushButtonClear_clicked",
+        "on_PushButtonEqual_clicked",
+        "on_pushButtonAddition_clicked",
+        "on_pushedButtonSubtraktion_clicked",
+        "on_pushButtonMultiplication_clicked",
+        "on_pushButtonDivision_clicked",
+        "on_pushedButtonBackspace_clicked",
+        "CalculateResult",
+        "firstNum",
+        "secondNum"
     };
 
     QtMocHelpers::UintData qt_methods {
-        // Slot 'on_pushButton_14_clicked'
+        // Slot 'on_pushButton0_clicked'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButton_15_clicked'
-        QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButton_12_clicked'
-        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'on_pushButton1_clicked'
+        QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton2_clicked'
+        QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton3_clicked'
         QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton4_clicked'
+        QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton5_clicked'
+        QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton6_clicked'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton7_clicked'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton8_clicked'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton9_clicked'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonClear_clicked'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_PushButtonEqual_clicked'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonAddition_clicked'
+        QtMocHelpers::SlotData<void()>(14, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushedButtonSubtraktion_clicked'
+        QtMocHelpers::SlotData<void()>(15, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonMultiplication_clicked'
+        QtMocHelpers::SlotData<void()>(16, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButtonDivision_clicked'
+        QtMocHelpers::SlotData<void()>(17, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushedButtonBackspace_clicked'
+        QtMocHelpers::SlotData<void()>(18, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'CalculateResult'
+        QtMocHelpers::SlotData<int(int, int)>(19, 2, QMC::AccessPrivate, QMetaType::Int, {{
+            { QMetaType::Int, 20 }, { QMetaType::Int, 21 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -78,14 +124,28 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     auto *_t = static_cast<MainWindow *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->on_pushButton_14_clicked(); break;
-        case 1: _t->on_pushButton_15_clicked(); break;
-        case 2: _t->on_pushButton_12_clicked(); break;
-        case 3: _t->on_pushButton1_clicked(); break;
+        case 0: _t->on_pushButton0_clicked(); break;
+        case 1: _t->on_pushButton1_clicked(); break;
+        case 2: _t->on_pushButton2_clicked(); break;
+        case 3: _t->on_pushButton3_clicked(); break;
+        case 4: _t->on_pushButton4_clicked(); break;
+        case 5: _t->on_pushButton5_clicked(); break;
+        case 6: _t->on_pushButton6_clicked(); break;
+        case 7: _t->on_pushButton7_clicked(); break;
+        case 8: _t->on_pushButton8_clicked(); break;
+        case 9: _t->on_pushButton9_clicked(); break;
+        case 10: _t->on_pushButtonClear_clicked(); break;
+        case 11: _t->on_PushButtonEqual_clicked(); break;
+        case 12: _t->on_pushButtonAddition_clicked(); break;
+        case 13: _t->on_pushedButtonSubtraktion_clicked(); break;
+        case 14: _t->on_pushButtonMultiplication_clicked(); break;
+        case 15: _t->on_pushButtonDivision_clicked(); break;
+        case 16: _t->on_pushedButtonBackspace_clicked(); break;
+        case 17: { int _r = _t->CalculateResult((*reinterpret_cast< std::add_pointer_t<int>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<int>>(_a[2])));
+            if (_a[0]) *reinterpret_cast< int*>(_a[0]) = std::move(_r); }  break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *MainWindow::metaObject() const
@@ -107,14 +167,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 18)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 18;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 18)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 4;
+        _id -= 18;
     }
     return _id;
 }
